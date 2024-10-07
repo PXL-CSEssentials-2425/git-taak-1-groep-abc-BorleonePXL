@@ -7,26 +7,7 @@
         mc:Ignorable="d"
         Title="KleurenPsychologie" Height="450" Width="800">
     <Grid x:Name="Panel" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
-        <Button Name="yellowButton" Content="Geel" HorizontalAlignment="Left" Margin="400,75,0,0" VerticalAlignment="Top" Height="102" Width="104" Click="yellowButton_Click" MouseEnter="yellowButton_MouseEnter" MouseLeave="yellowButton_MouseLeave">
-            <Button.Background>
-                <ImageBrush ImageSource="/Geel.png"/>
-            </Button.Background>
-        </Button>
-        <Button Name="blueButton" Content="Blauw" HorizontalAlignment="Left" Margin="400,197,0,0" VerticalAlignment="Top" Height="102" Width="104" Click="blueButton_Click" MouseEnter="blueButton_MouseEnter" MouseLeave="blueButton_MouseLeave">
-            <Button.Background>
-                <ImageBrush ImageSource="/Blauw.png"/>
-            </Button.Background>
-        </Button>
-        <Button Name="redButton" Content="Rood" HorizontalAlignment="Left" Margin="224,75,0,0" VerticalAlignment="Top" Height="102" Width="104" Click="redButton_Click" MouseEnter="redButton_MouseEnter" MouseLeave="redButton_MouseLeave">
-            <Button.Background>
-                <ImageBrush ImageSource="/Rood.png"/>
-            </Button.Background>
-        </Button>
-        <Button Name="greenButton" Content="Groen" HorizontalAlignment="Left" Margin="224,197,0,0" VerticalAlignment="Top" Height="102" Width="104" Click="greenButton_Click" MouseEnter="greenButton_MouseEnter" MouseLeave="greenButton_MouseLeave">
-            <Button.Background>
-                <ImageBrush ImageSource="/Groen.png"/>
-            </Button.Background>
-        </Button>
+       
         <Label Content="KleurCode:" HorizontalAlignment="Left" Margin="100,320,0,0" VerticalAlignment="Top"/>
         <Label Content="Informatie:" HorizontalAlignment="Left" Margin="100,358,0,0" VerticalAlignment="Top"/>
         <TextBox Name="colorCodeTextBox" HorizontalAlignment="Left" Margin="212,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="317"/>
