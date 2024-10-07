@@ -47,45 +47,45 @@ namespace Git_Taak_1_BORNA_HAJAROLASAWADI
             informationTextBox.Text = "Blauw is de kleur van intelligentie";
         }
 
-        private void redButton_MouseEnter(object sender, MouseEventArgs e)
-        {
-            Console.BackgroundColor = ConsoleColor.Red;
-        }
+        //private void redButton_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    Console.BackgroundColor = ConsoleColor.Red;
+        //}
 
-        private void redButton_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Console.ResetColor();
-        }
+        //private void redButton_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Console.ResetColor();
+        //}
 
-        private void yellowButton_MouseEnter(object sender, MouseEventArgs e)
-        {
-            Console.BackgroundColor = ConsoleColor.Yellow;
-        }
+        //private void yellowButton_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    Console.BackgroundColor = ConsoleColor.Yellow;
+        //}
 
-        private void yellowButton_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Console.ResetColor();
-        }
+        //private void yellowButton_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Console.ResetColor();
+        //}
 
-        private void greenButton_MouseEnter(object sender, MouseEventArgs e)
-        {
-            Console.BackgroundColor = ConsoleColor.Green;
-        }
+        //private void greenButton_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    Console.BackgroundColor = ConsoleColor.Green;
+        //}
 
-        private void greenButton_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Console.ResetColor();
-        }
+        //private void greenButton_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Console.ResetColor();
+        //}
 
-        private void blueButton_MouseEnter(object sender, MouseEventArgs e)
-        {
-            Console.BackgroundColor = ConsoleColor.Blue;
-        }
+        //private void blueButton_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    Console.BackgroundColor = ConsoleColor.Blue;
+        //}
 
-        private void blueButton_MouseLeave(object sender, MouseEventArgs e)
-        {
-            Console.ResetColor();
-        }
+        //private void blueButton_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    Console.ResetColor();
+        //}
 
     }
 }
